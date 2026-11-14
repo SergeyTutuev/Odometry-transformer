@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Данные и чекпоинты (не пушим большие файлы)
+KITTI/
+data/
+checkpoints/
+predict_poses/
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
