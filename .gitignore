@@ -6,11 +6,7 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# Данные и чекпоинты (не пушим большие файлы)
-KITTI/
 data/
-checkpoints/
-predict_poses/
 
 # TensorBoard
 runs/
