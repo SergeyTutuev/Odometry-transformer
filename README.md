@@ -68,8 +68,8 @@ pip install numpy matplotlib tqdm einops tensorboard
 
 ```bash
 python train.py
-Артефакты сохраняются в checkpoints/<checkpoint_path>/:
 ```
+Данные сохраняются в checkpoints/<checkpoint_path>/:
 checkpoint_best.pth — лучшая модель по val_loss
 args.pkl / args.txt — конфигурация эксперимента
 
